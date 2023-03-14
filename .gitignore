@@ -28,11 +28,9 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/src/test/resources/application.properties
-/src/main/resources/application.properties
-/src/test/resources/data.sql
-/src/test/resources/schema.sql
-/src/test/resources/drop.sql
+#/src/test/resources/application.properties
+#/src/main/resources/application.properties
+/src/test/resources/
 
 ### VS Code ###
 .vscode/
