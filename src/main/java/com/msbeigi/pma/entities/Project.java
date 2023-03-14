@@ -5,10 +5,11 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
+@Entity(name = "project")
 public class Project {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name="project_seq", sequenceName="project_seq", allocationSize=1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "project_seq")
     private long projectId;
     private String name;
     private String stage; // NOT STARTED, COMPLETED, IN PROGRESS

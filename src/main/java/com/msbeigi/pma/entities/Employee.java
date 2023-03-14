@@ -3,10 +3,11 @@ package com.msbeigi.pma.entities;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
+@Entity(name = "employee")
 public class Employee {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @SequenceGenerator(name="employee_seq", sequenceName="employee_seq", allocationSize=1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "employee_seq")
     private long employeeId;
     private String firstName;
     private String lastName;
