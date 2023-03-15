@@ -63,3 +63,1699 @@
 23-03-15 12:02:36  INFO 1277050 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 23-03-15 12:02:36  INFO 1277050 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.499 seconds (JVM running for 1782.354)
 23-03-15 12:02:36  INFO 1277050 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 12:07:16  INFO 1277050 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 12:07:16  INFO 1277050 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 12:07:16 DEBUG 1277050 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 12:19:24  INFO 1277050 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 12:19:25  WARN 1277050 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 01:59:28  INFO 1290496 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1290496 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 01:59:28 DEBUG 1290496 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 01:59:28  INFO 1290496 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 01:59:28  INFO 1290496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23-03-15 01:59:28  INFO 1290496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23-03-15 01:59:29  INFO 1290496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 01:59:29  INFO 1290496 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+23-03-15 01:59:29  INFO 1290496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 01:59:29  INFO 1290496 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1491 ms
+23-03-15 01:59:30  INFO 1290496 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 01:59:31  INFO 1290496 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 01:59:31  WARN 1290496 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 01:59:31  INFO 1290496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 01:59:31  INFO 1290496 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 01:59:31  INFO 1290496 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 3.846 seconds (JVM running for 4.602)
+23-03-15 01:59:41  INFO 1290496 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 01:59:41  WARN 1290496 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 02:54:11  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 02:54:11 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 02:54:11  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 02:54:11  INFO 1292255 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+23-03-15 02:54:11  INFO 1292255 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+23-03-15 02:54:12  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 02:54:12  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+23-03-15 02:54:12  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 02:54:12  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+23-03-15 02:54:12  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 02:54:13  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 02:54:13  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 02:54:14  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a251e046-cbb5-4fd8-bf0f-c2343c1a2709
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 02:54:14  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@77a10bf5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ba4af75, org.springframework.security.web.context.SecurityContextPersistenceFilter@60a22525, org.springframework.security.web.header.HeaderWriterFilter@521ec21a, org.springframework.security.web.csrf.CsrfFilter@313a61a1, org.springframework.security.web.authentication.logout.LogoutFilter@282a186a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e121a9b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76a820a0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@324fc3b8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2734f3a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ec3f07a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@658b5e69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5068c8ed, org.springframework.security.web.session.SessionManagementFilter@7b21413e, org.springframework.security.web.access.ExceptionTranslationFilter@226bcf4e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40580730]
+23-03-15 02:54:14  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 02:54:14  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 02:54:14  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 3.065 seconds (JVM running for 3.655)
+23-03-15 02:55:03  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 02:55:03  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 02:55:38 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 02:55:57 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:00:20  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:00:20  INFO 1292255 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:00:21  WARN 1292255 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:00:21 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 2 JPA repository interfaces.
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 312 ms
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:00:21  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultSecurityFilterChain' defined in class path resource [org/springframework/boot/autoconfigure/security/servlet/SpringBootWebSecurityConfiguration$SecurityFilterChainConfiguration.class]: Unsatisfied dependency expressed through method 'defaultSecurityFilterChain' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:00:21  WARN 1292255 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:00:21  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:00:21 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method defaultSecurityFilterChain in org.springframework.boot.autoconfigure.security.servlet.SpringBootWebSecurityConfiguration$SecurityFilterChainConfiguration required a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.config.annotation.web.builders.HttpSecurity' in your configuration.
+
+23-03-15 03:01:07  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:01:07 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:01:07  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:01:08  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [com.msbeigi.pma.security.SecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]] for bean 'delegatingApplicationListener': There is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+23-03-15 03:01:08  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:01:08 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+23-03-15 03:03:56  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:03:56 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:03:56  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:03:56  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfiguration; factoryMethodName=requestDataValueProcessor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]] for bean 'requestDataValueProcessor': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration; factoryMethodName=requestDataValueProcessor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebMvcSecurityConfiguration.class]] bound.
+23-03-15 03:03:56  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:03:56 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebMvcSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+23-03-15 03:03:58  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:03:58 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:03:58  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:03:58  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'requestDataValueProcessor' defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfiguration; factoryMethodName=requestDataValueProcessor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]] for bean 'requestDataValueProcessor': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration; factoryMethodName=requestDataValueProcessor; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebMvcSecurityConfiguration.class]] bound.
+23-03-15 03:03:58  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:03:58 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'requestDataValueProcessor', defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebMvcSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+23-03-15 03:12:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:12:08 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:12:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:12:08  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [com.msbeigi.pma.security.SecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]] for bean 'delegatingApplicationListener': There is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+23-03-15 03:12:08  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:12:08 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:17:00 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 218 ms
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:17:00  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:17:00  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 47a33c94-d5c7-4bf2-b19b-466492c0eb62
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1660c08a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c9d014, org.springframework.security.web.context.SecurityContextPersistenceFilter@388ec900, org.springframework.security.web.header.HeaderWriterFilter@a098253, org.springframework.security.web.csrf.CsrfFilter@13758353, org.springframework.security.web.authentication.logout.LogoutFilter@77eb5038, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53079bbd, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@262d3395, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26fc70e3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b813021, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1231bc01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@546cbf0e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@742e5c25, org.springframework.security.web.session.SessionManagementFilter@75eada3, org.springframework.security.web.access.ExceptionTranslationFilter@786a5ff7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65574426]
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.567 seconds (JVM running for 1370.088)
+23-03-15 03:17:00  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:17:02  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:17:02  INFO 1292255 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:17:02  WARN 1292255 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:17:02  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:17:02 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:17:02  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:17:02  WARN 1292255 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'delegatingApplicationListener' defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]: Cannot register bean definition [Root bean: class [com.msbeigi.pma.security.SecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class]] for bean 'delegatingApplicationListener': There is already [Root bean: class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=delegatingApplicationListener; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]] bound.
+23-03-15 03:17:02  INFO 1292255 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+23-03-15 03:17:02 ERROR 1292255 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'delegatingApplicationListener', defined in class path resource [com/msbeigi/pma/security/SecurityConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:17:18 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:17:18  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:17:18  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8a2b5079-4b3d-4b02-bd4c-d26f0bae3aa7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24f1f88, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23500f68, org.springframework.security.web.context.SecurityContextPersistenceFilter@17df0b66, org.springframework.security.web.header.HeaderWriterFilter@24d0099b, org.springframework.security.web.csrf.CsrfFilter@14d63b12, org.springframework.security.web.authentication.logout.LogoutFilter@51aeacb1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@546c42e5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4aae7cb5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@151d0a8d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@78e94bac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7931a5d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d09f7b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@279b87a9, org.springframework.security.web.session.SessionManagementFilter@3274b891, org.springframework.security.web.access.ExceptionTranslationFilter@5167ece8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@550e9607]
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.574 seconds (JVM running for 1387.87)
+23-03-15 03:17:18  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:19:41  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:19:41  INFO 1292255 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:19:41  WARN 1292255 --- [Thread-27] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:19:41 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:19:41  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 59bb6f30-f17c-4405-b7e2-a44e058cb853
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6813c28e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@561455fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f3d75ed, org.springframework.security.web.header.HeaderWriterFilter@1ee13e55, org.springframework.security.web.csrf.CsrfFilter@34caf2a7, org.springframework.security.web.authentication.logout.LogoutFilter@494bf01, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@721a10bb, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@12cb46e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7429084c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@194dce2e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@452281a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52261cc1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3629459, org.springframework.security.web.session.SessionManagementFilter@5c01eb00, org.springframework.security.web.access.ExceptionTranslationFilter@7cd0c6ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27a32342]
+23-03-15 03:19:41  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.356 seconds (JVM running for 1531.166)
+23-03-15 03:19:41  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:19:55  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:19:55  INFO 1292255 --- [Thread-34] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:19:55  WARN 1292255 --- [Thread-34] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:19:55 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 188 ms
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:19:55  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:19:55  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:19:56  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2850080d-0d6c-41be-a348-35982fa0586b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:19:56  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b57a746, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cae9a08, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fa0cb4d, org.springframework.security.web.header.HeaderWriterFilter@5a48a2d0, org.springframework.security.web.csrf.CsrfFilter@76686907, org.springframework.security.web.authentication.logout.LogoutFilter@2ba39600, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@311c00cf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2dac6549, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5de5e92a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f16c686, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75a54ac1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a642887, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74ee26e6, org.springframework.security.web.session.SessionManagementFilter@6ab5a74d, org.springframework.security.web.access.ExceptionTranslationFilter@24c1ddcd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14ee7e0a]
+23-03-15 03:19:56  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:19:56  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:19:56  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.484 seconds (JVM running for 1545.325)
+23-03-15 03:19:56  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:30:14  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:30:14  INFO 1292255 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:30:15  WARN 1292255 --- [Thread-38] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:30:15 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:30:15  WARN 1292255 --- [restartedMain] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+23-03-15 03:30:15  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d96ef69, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d135ca7, org.springframework.security.web.context.SecurityContextPersistenceFilter@499ec7f3, org.springframework.security.web.header.HeaderWriterFilter@7d4fd83b, org.springframework.security.web.csrf.CsrfFilter@4c1688c0, org.springframework.security.web.authentication.logout.LogoutFilter@4fa38715, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54132b94, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5ec8d900, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1091931a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4baa738a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cbe5cb6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f33c91a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@83f94a1, org.springframework.security.web.session.SessionManagementFilter@31b6198d, org.springframework.security.web.access.ExceptionTranslationFilter@68cfaf51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@152cbb3f]
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.51 seconds (JVM running for 2164.811)
+23-03-15 03:30:15  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:30:30  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+23-03-15 03:30:30  INFO 1292255 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:30:30  WARN 1292255 --- [Thread-42] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:30:30 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 182 ms
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:30:30  WARN 1292255 --- [restartedMain] o.s.security.core.userdetails.User       : User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+23-03-15 03:30:30  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@352f0674, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30c36670, org.springframework.security.web.context.SecurityContextPersistenceFilter@2510ff37, org.springframework.security.web.header.HeaderWriterFilter@6dd37eeb, org.springframework.security.web.csrf.CsrfFilter@4b12ea71, org.springframework.security.web.authentication.logout.LogoutFilter@5a27bd0f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@17b155fd, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7af35526, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d40d328, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17db2729, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b2337df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d713676, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@636c5bc6, org.springframework.security.web.session.SessionManagementFilter@790dd305, org.springframework.security.web.access.ExceptionTranslationFilter@32c1998b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26947fae]
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.491 seconds (JVM running for 2179.979)
+23-03-15 03:30:30  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:31:15  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+23-03-15 03:31:15  INFO 1292255 --- [Thread-46] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:31:15  WARN 1292255 --- [Thread-46] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:31:15  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:31:15 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:31:15  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 335 ms
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:31:16  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6073f599, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@579d3c80, org.springframework.security.web.context.SecurityContextPersistenceFilter@4df58867, org.springframework.security.web.header.HeaderWriterFilter@4df6f98, org.springframework.security.web.csrf.CsrfFilter@19d5eee5, org.springframework.security.web.authentication.logout.LogoutFilter@7cab3a73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@46bb4593, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7b621107, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4b966c3d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1c011d32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70b2c940, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f6edb61, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f6a00f0, org.springframework.security.web.session.SessionManagementFilter@7b61e328, org.springframework.security.web.access.ExceptionTranslationFilter@62abea2b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7979d41b]
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.689 seconds (JVM running for 2225.847)
+23-03-15 03:31:16  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:31:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:31:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:31:57 ERROR 1292255 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+java.lang.IllegalArgumentException: There is no PasswordEncoder mapped for the id "null"
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder$UnmappedIdPasswordEncoder.matches(DelegatingPasswordEncoder.java:289) ~[spring-security-crypto-5.7.7.jar:5.7.7]
+	at org.springframework.security.crypto.password.DelegatingPasswordEncoder.matches(DelegatingPasswordEncoder.java:237) ~[spring-security-crypto-5.7.7.jar:5.7.7]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:77) ~[spring-security-core-5.7.7.jar:5.7.7]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:147) ~[spring-security-core-5.7.7.jar:5.7.7]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182) ~[spring-security-core-5.7.7.jar:5.7.7]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201) ~[spring-security-core-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-5.7.7.jar:5.7.7]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.25.jar:5.3.25]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.71.jar:9.0.71]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+23-03-15 03:33:08  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:33:08  INFO 1292255 --- [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:33:08  WARN 1292255 --- [Thread-50] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:33:08 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 217 ms
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:33:08  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:33:08  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d2014de8-8054-45a5-809c-8532b85f61ed
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21bc88a5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@638ed6d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@33cd7e2, org.springframework.security.web.header.HeaderWriterFilter@a3f64ab, org.springframework.security.web.csrf.CsrfFilter@55b48de7, org.springframework.security.web.authentication.logout.LogoutFilter@7e54f920, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@450f1e33, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1ed010a3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5ecdb216, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@19127bce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2855b65c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@593e85c1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@540b7e0a, org.springframework.security.web.session.SessionManagementFilter@7296b7e2, org.springframework.security.web.access.ExceptionTranslationFilter@6059737a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d23ea7a]
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.512 seconds (JVM running for 2338.17)
+23-03-15 03:33:08  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:34:07  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:34:07  INFO 1292255 --- [Thread-54] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:34:07  WARN 1292255 --- [Thread-54] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:34:07 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 165 ms
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:34:07  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:34:07  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:34:08  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60ba1f89, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40c7a5ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f224258, org.springframework.security.web.header.HeaderWriterFilter@2689e00c, org.springframework.security.web.csrf.CsrfFilter@1c8aa718, org.springframework.security.web.authentication.logout.LogoutFilter@3111d75d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e41f264, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@16d5a6fe, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5184bd43, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5bf981b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6599f94f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cf9ec70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46675ad9, org.springframework.security.web.session.SessionManagementFilter@56599dec, org.springframework.security.web.access.ExceptionTranslationFilter@170db99a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d81bb88]
+23-03-15 03:34:08  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:34:08  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:34:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.396 seconds (JVM running for 2397.308)
+23-03-15 03:34:08  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:34:10  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:34:10  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:34:15 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:35:55  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:35:55  INFO 1292255 --- [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:35:55  WARN 1292255 --- [Thread-58] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:35:55  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:35:55 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:35:55  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:35:56  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:35:56  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 445c723b-7be8-4f60-8ab1-640fabf919a5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b1737dc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19aac917, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e9fe4ad, org.springframework.security.web.header.HeaderWriterFilter@388620eb, org.springframework.security.web.csrf.CsrfFilter@72d10b4b, org.springframework.security.web.authentication.logout.LogoutFilter@737d1036, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@632414, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@329371f3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@f01db2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@38ad07b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ee1de91, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67693ade, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50b022a4, org.springframework.security.web.session.SessionManagementFilter@246e3838, org.springframework.security.web.access.ExceptionTranslationFilter@3367f10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eeb8697]
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.535 seconds (JVM running for 2505.669)
+23-03-15 03:35:56  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:46:11  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:46:11  INFO 1292255 --- [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:46:12  WARN 1292255 --- [Thread-62] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:46:12 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 2 JPA repository interfaces.
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@63afdcfd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fe9d90d, org.springframework.security.web.context.SecurityContextPersistenceFilter@20d0e46b, org.springframework.security.web.header.HeaderWriterFilter@741a123e, org.springframework.security.web.csrf.CsrfFilter@15cc42b1, org.springframework.security.web.authentication.logout.LogoutFilter@3ad6fcdc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b569cf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@547d438c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5c16e2c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50632abf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74cc596f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@73421395, org.springframework.security.web.session.SessionManagementFilter@57feedef, org.springframework.security.web.access.ExceptionTranslationFilter@3dc9b147, org.springframework.security.web.access.intercept.AuthorizationFilter@2c5dec3d]
+23-03-15 03:46:12  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.62 seconds (JVM running for 3122.016)
+23-03-15 03:46:12  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' SecurityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailService, managerDetailService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:46:21  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:46:21  INFO 1292255 --- [Thread-66] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:46:21  WARN 1292255 --- [Thread-66] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:46:21 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 211 ms
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:46:21  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:46:21  WARN 1292255 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a27d678b-7b91-4aab-8e0b-65b3b04d6ca3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5695cb45, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c813b41, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c09fdad, org.springframework.security.web.header.HeaderWriterFilter@216c5f19, org.springframework.security.web.csrf.CsrfFilter@4c9a734f, org.springframework.security.web.authentication.logout.LogoutFilter@62c67458, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bccd002, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79197c54, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@11b0aa13, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@13752739, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ed8df11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d8fc944, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b461bf3, org.springframework.security.web.session.SessionManagementFilter@2396e29b, org.springframework.security.web.access.ExceptionTranslationFilter@1fb1be5b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@688a4482]
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:46:21  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.516 seconds (JVM running for 3131.213)
+23-03-15 03:46:22  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:47:23  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:47:23  INFO 1292255 --- [Thread-70] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:47:23  WARN 1292255 --- [Thread-70] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:47:23 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 171 ms
+23-03-15 03:47:23  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5981c856, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19dd4187, org.springframework.security.web.context.SecurityContextPersistenceFilter@40c4ad52, org.springframework.security.web.header.HeaderWriterFilter@32847f47, org.springframework.security.web.csrf.CsrfFilter@349470a1, org.springframework.security.web.authentication.logout.LogoutFilter@258fd4a3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f02e67, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@364dd9b7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46f3d390, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@665215af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77bd2065, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45f34e3f, org.springframework.security.web.session.SessionManagementFilter@57c2ce73, org.springframework.security.web.access.ExceptionTranslationFilter@1ff728e5, org.springframework.security.web.access.intercept.AuthorizationFilter@637780cc]
+23-03-15 03:47:24  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.382 seconds (JVM running for 3193.389)
+23-03-15 03:47:24  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' SecurityFilterChain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   UserDetailsServiceAutoConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailService, managerDetailService (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+23-03-15 03:47:34  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:47:34  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:48:48  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:48:48  INFO 1292255 --- [Thread-74] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:48:48  WARN 1292255 --- [Thread-74] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:48:49 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a31018b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@292c9644, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f01ae7d, org.springframework.security.web.header.HeaderWriterFilter@7cc7389a, org.springframework.security.web.csrf.CsrfFilter@42744cd9, org.springframework.security.web.authentication.logout.LogoutFilter@173a93e5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49d706ef, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3aa9a853, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1b3d78bc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19c4c100, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c82294a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6aacf54a, org.springframework.security.web.session.SessionManagementFilter@7f7337ce, org.springframework.security.web.access.ExceptionTranslationFilter@573a3f32, org.springframework.security.web.access.intercept.AuthorizationFilter@2da3f005]
+23-03-15 03:48:49  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.435 seconds (JVM running for 3278.637)
+23-03-15 03:48:49  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:48:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:48:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:48:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:49:37  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:49:37  INFO 1292255 --- [Thread-78] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:49:38  WARN 1292255 --- [Thread-78] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:49:38 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a7fddac, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@563f2dad, org.springframework.security.web.context.SecurityContextPersistenceFilter@3db2296d, org.springframework.security.web.header.HeaderWriterFilter@433cbdb8, org.springframework.security.web.csrf.CsrfFilter@1e6836df, org.springframework.security.web.authentication.logout.LogoutFilter@26ccd911, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a3b8dab, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1cac3476, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@310e21e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41bae322, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@674d57d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75b07102, org.springframework.security.web.session.SessionManagementFilter@62b3352a, org.springframework.security.web.access.ExceptionTranslationFilter@d3e2950, org.springframework.security.web.access.intercept.AuthorizationFilter@56c0674b]
+23-03-15 03:49:38  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.528 seconds (JVM running for 3327.944)
+23-03-15 03:49:38  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:49:39  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:49:39  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:49:39 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:49:40  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+23-03-15 03:49:40  INFO 1292255 --- [Thread-82] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:49:40  WARN 1292255 --- [Thread-82] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:49:40 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6a6a7d4a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@332a5777, org.springframework.security.web.context.SecurityContextPersistenceFilter@691f7f14, org.springframework.security.web.header.HeaderWriterFilter@54a71808, org.springframework.security.web.csrf.CsrfFilter@6ad604bc, org.springframework.security.web.authentication.logout.LogoutFilter@9efe299, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1c67bf75, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b2b2e3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b1630ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cfef9b6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f5db79, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a2bb4ed, org.springframework.security.web.session.SessionManagementFilter@33b66e3a, org.springframework.security.web.access.ExceptionTranslationFilter@799f9f6e, org.springframework.security.web.access.intercept.AuthorizationFilter@325f557a]
+23-03-15 03:49:40  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.413 seconds (JVM running for 3330.006)
+23-03-15 03:49:40  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:49:42  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:49:42  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:49:42 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:54:48  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+23-03-15 03:54:48  INFO 1292255 --- [Thread-86] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:54:48  WARN 1292255 --- [Thread-86] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:54:48 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 2 JPA repository interfaces.
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 223 ms
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@df94ed2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d247ec8, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c936543, org.springframework.security.web.header.HeaderWriterFilter@66cca7f, org.springframework.security.web.csrf.CsrfFilter@4bda0f2f, org.springframework.security.web.authentication.logout.LogoutFilter@75692a73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31ffc02c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f387f12, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@70e72cba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65991b7b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5460a85, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3fd66c2a, org.springframework.security.web.session.SessionManagementFilter@7aba1ee, org.springframework.security.web.access.ExceptionTranslationFilter@6c82ae24, org.springframework.security.web.access.intercept.AuthorizationFilter@5c92338d]
+23-03-15 03:54:48  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:54:48  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:54:49  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.486 seconds (JVM running for 3638.215)
+23-03-15 03:54:49  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+23-03-15 03:54:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+23-03-15 03:54:51  INFO 1292255 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:54:55 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:54:58 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:00 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:02 DEBUG 1292255 --- [http-nio-8080-exec-1] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{}]
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{projects=[]}]
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:05 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:06 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:07 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:08 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{}]
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{employee=com.msbeigi.pma.entities.Employee@13bece0d}]
+23-03-15 03:55:09 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:11 DEBUG 1292255 --- [http-nio-8080-exec-9] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:15 DEBUG 1292255 --- [http-nio-8080-exec-5] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:17 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{}]
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{employee=com.msbeigi.pma.entities.Employee@6e2ca064}]
+23-03-15 03:55:19 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:21 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:26 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:47 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:48 DEBUG 1292255 --- [http-nio-8080-exec-7] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:49 DEBUG 1292255 --- [http-nio-8080-exec-10] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{}]
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployees () with arguments [s] = [{employees=[]}]
+23-03-15 03:55:51 DEBUG 1292255 --- [http-nio-8080-exec-2] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{}]
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.EmployeeController.displayEmployeeForm () with arguments [s] = [{employee=com.msbeigi.pma.entities.Employee@2f333370}]
+23-03-15 03:55:52 DEBUG 1292255 --- [http-nio-8080-exec-4] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:55:53 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:56:34 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{}]
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{projects=[]}]
+23-03-15 03:56:36 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{}]
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.HomeController.displayHome () with arguments [s] = [{versionNumber="0.0.0", projectList=[], projectStatusCount=[], employeeListProjectsCount=[]}]
+23-03-15 03:57:13 DEBUG 1292255 --- [http-nio-8080-exec-3] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{}]
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjects () with arguments [s] = [{projects=[]}]
+23-03-15 03:57:15 DEBUG 1292255 --- [http-nio-8080-exec-6] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : ******* Before Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjectForm () with arguments [s] = [{}]
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : 
+
+
+
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : ******* After Method Execution ******* 
+ com.msbeigi.pma.controllers.ProjectController.displayProjectForm () with arguments [s] = [{project=com.msbeigi.pma.entities.Project@d3f3b8f, allEmployees=[]}]
+23-03-15 03:57:16 DEBUG 1292255 --- [http-nio-8080-exec-8] c.m.pma.logging.ApplicationLoggerAspect  : __________________________________
+
+
+
+23-03-15 03:58:07  INFO 1292255 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+23-03-15 03:58:07  INFO 1292255 --- [Thread-90] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:58:07  WARN 1292255 --- [Thread-90] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Starting ProjectManagementApplication using Java 11.0.18 on msadeghbeigi with PID 1292255 (/home/mohsen/Documents/dev/java-projects/project-management/target/classes started by mohsen in /home/mohsen/Documents/dev/java-projects/project-management)
+23-03-15 03:58:08 DEBUG 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Running with Spring Boot v2.7.9, Spring v5.3.25
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : The following 1 profile is active: "dev"
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 355 ms
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@746ea482, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9d16dcd, org.springframework.security.web.context.SecurityContextPersistenceFilter@1825a04b, org.springframework.security.web.header.HeaderWriterFilter@1f5ec1, org.springframework.security.web.csrf.CsrfFilter@ddda66f, org.springframework.security.web.authentication.logout.LogoutFilter@45454951, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b8e7963, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6a865604, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5e91013d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34e5d5c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ef66cc2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@363c2eed, org.springframework.security.web.session.SessionManagementFilter@78ab8fef, org.springframework.security.web.access.ExceptionTranslationFilter@6f386a8c, org.springframework.security.web.access.intercept.AuthorizationFilter@60c6ea20]
+23-03-15 03:58:08  WARN 1292255 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] c.m.pma.ProjectManagementApplication     : Started ProjectManagementApplication in 0.851 seconds (JVM running for 3838.091)
+23-03-15 03:58:08  INFO 1292255 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
