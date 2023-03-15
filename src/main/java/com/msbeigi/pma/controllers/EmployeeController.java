@@ -2,6 +2,7 @@ package com.msbeigi.pma.controllers;
 
 import com.msbeigi.pma.dao.EmployeeRepository;
 import com.msbeigi.pma.entities.Employee;
+import com.msbeigi.pma.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,22 +17,23 @@ import java.util.List;
 public class EmployeeController {
 
     @Autowired
-    EmployeeRepository employeeRepository;
+    EmployeeService employeeService;
 
     @GetMapping("/new")
     public String displayEmployeeForm(Model model) {
-        model.addAttribute("employee", new Employee());
+        Employee anEmployee = new Employee();
+        model.addAttribute("employee", anEmployee);
         return "employees/new-employee";
     }
 
     @PostMapping("/save")
     public String createEmployee(Employee employee, Model model) {
-        employeeRepository.save(employee);
+        employeeService.save(employee);
         return "redirect:/employees/new";
     }
     @GetMapping
     public String displayEmployees(Model model) {
-        List<Employee> employeeList = employeeRepository.findAll();
+        List<Employee> employeeList = employeeService.getAll();
         model.addAttribute("employees", employeeList);
         return "employees/list-employees";
     }
